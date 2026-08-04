@@ -1,0 +1,99 @@
+.education__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 56px;
+}
+
+.edu-card {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edu-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-3px);
+  box-shadow: 0 18px 34px -22px rgba(0, 0, 0, 0.55);
+}
+
+.edu-card__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--accent-cyan);
+}
+
+.edu-card__body h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  line-height: 1.35;
+}
+
+.edu-card__school {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.edu-card__meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.certifications__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.05rem;
+  color: var(--accent-cyan);
+  margin-bottom: 20px;
+}
+
+.certifications__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.certifications__card {
+  padding: 20px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.certifications__card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+}
+
+.certifications__name {
+  font-size: 0.94rem;
+  margin-bottom: 4px;
+}
+
+.certifications__issuer {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 720px) {
+  .education__cards,
+  .certifications__list {
+    grid-template-columns: 1fr;
+  }
+}
