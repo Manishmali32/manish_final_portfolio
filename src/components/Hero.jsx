@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="hero__photo-wrap">
           <div className="hero__photo-glow" aria-hidden="true" />
           <div className="hero__photo">
-            <span>{profile.initials}</span>
+            <img src="/manish_portfolio_image.jpeg" alt={profile.name} />
           </div>
           <div className="hero__photo-badge">
             <span className="hero__photo-badge-dot" />

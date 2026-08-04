@@ -2,11 +2,10 @@ export const profile = {
   name: 'Manish Suresh Mali',
   initials: 'MM',
   title: 'Java Full Stack Developer',
-  tagline: 'Backend Developer — Java / Spring Boot',
   location: 'Surat, Gujarat, India',
   email: 'malimanish7a@gmail.com',
   phone: '+91 6359845528',
-  github: 'https://github.com/Manishmali32/manish_final_portfolio.git',
+  github: 'https://github.com/Manishmali32',
   linkedin: 'https://www.linkedin.com/in/manish-mali-ab4b43283/',
   resumeFile: '/Manish_Mali_Resume.pdf',
   summary:
@@ -62,7 +61,8 @@ export const projects = [
       'Normalized MySQL schema for complaints, users & location tracking',
     ],
     tech: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'Hibernate', 'MySQL', 'REST API', 'Maven'],
-    github: 'https://github.com/ManishMali',
+  tagline: 'Backend Developer — Java / Spring Boot',
+    github: 'https://github.com/Manishmali32',
     demo: null,
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
       'Build & version control managed with Maven and GitHub',
     ],
     tech: ['Java', 'Spring Boot', 'Spring Data JPA', 'Hibernate', 'MySQL', 'Maven', 'Git'],
-    github: 'https://github.com/ManishMali',
+    github: 'https://github.com/Manishmali32/Local_connect_new',
     demo: null,
   },
   {
@@ -94,7 +94,7 @@ export const projects = [
       'API surface tested end-to-end with Postman',
     ],
     tech: ['Java', 'Spring Boot', 'Spring Data JPA', 'Hibernate', 'MySQL', 'REST API', 'Maven'],
-    github: 'https://github.com/ManishMali',
+    github: 'https://github.com/Manishmali32/smart_expense_tracker',
     demo: null,
   },
 ]
