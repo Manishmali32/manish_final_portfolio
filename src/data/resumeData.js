@@ -6,8 +6,8 @@ export const profile = {
   location: 'Surat, Gujarat, India',
   email: 'malimanish7a@gmail.com',
   phone: '+91 6359845528',
-  github: 'https://github.com/ManishMali',
-  linkedin: 'https://linkedin.com/in/manish-mali-ab4b43283',
+  github: 'https://github.com/Manishmali32/manish_final_portfolio.git',
+  linkedin: 'https://www.linkedin.com/in/manish-mali-ab4b43283/',
   resumeFile: '/Manish_Mali_Resume.pdf',
   summary:
     "Motivated MCA student with hands-on experience building Java backend systems using Spring Boot, Spring Security, Spring MVC, Spring Data JPA, Hibernate, REST APIs and MySQL. I design RESTful services with clean, normalized schemas, role-based access control, and full CRUD lifecycles — and I've solved 50+ DSA problems along the way. Currently looking for a Backend or Java Developer role where I can ship scalable, production-quality software.",
