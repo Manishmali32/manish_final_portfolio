@@ -62,7 +62,7 @@ export const projects = [
     ],
     tech: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'Hibernate', 'MySQL', 'REST API', 'Maven'],
   tagline: 'Backend Developer — Java / Spring Boot',
-    github: 'https://github.com/Manishmali32',
+    github: 'https://github.com/Manishmali32/civic_connect_new',
     demo: null,
   },
   {
